@@ -1,0 +1,276 @@
+
+:root{
+    --gr: #04d7a2;
+    --bl: #1d214e;
+    --lg: rgba(208,247,228,0.8);
+}
+body{ 
+    width: 1300px;
+    background-color: var(--lg);  
+}
+nav{
+    width: 1300px;
+}
+.menu{
+    width: 1100px;
+    height: 50px;
+    position: relative;
+}
+nav ul li {
+   position: absolute;
+   left: 128px;
+}
+nav ul li a{
+    color: var(--bl);
+}
+nav ul li .courses{
+    position: absolute;
+    left: 200px;
+}
+nav ul li .contact{
+    position: absolute;
+    left: 400px;
+}
+nav ul li .about{
+    position: absolute;
+    left: 600px;
+}
+nav ul li a:active{
+    color: red;
+}
+.dsearch{
+    position: absolute;
+    left: 1000px;
+    top: 18px;
+}
+.dsearch i{
+    position: absolute;
+    top: 4px;
+    right: 180px;
+}
+.dsearch button{
+    width: 90px;
+    position: absolute;
+    left: 161px;
+    top: 0px;
+    padding: 2px;
+    border: 1px solid #000;
+}
+.dsearch button a{
+    text-decoration: none;
+    color:#fff;
+}
+.singup{
+	background-color: steelblue;
+	width: 90px;
+	color: #fff;
+    border-radius: 0;
+}
+
+.left-box{
+    width: 300px;
+    /* background-color: pink; */
+    margin-left: 25px;
+   /* border-style: groove; */
+   float: left; 
+   margin-top: 20px;
+}
+.categories{
+   font-size: 21px;
+   color: var(--bl);
+   font-family: 'Karla', sans-serif;
+   font-weight: bold;
+}
+.list,.top-courses{
+    width: 50px;
+    padding: 10px 0px;
+    padding-right: 235px;
+    /* border: solid; */
+    border-bottom: 1px solid var(--gr);
+    border-top: 1px solid var(--gr);
+}
+ul{
+    line-height: 55px;
+    margin-left: -34px;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+}
+.special-courses .box1,.special-courses .box2{
+    height: 255px;
+    width: 212px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.1);
+    font-family: 'Karla', sans-serif;
+}
+img{
+   margin-left: 10px;
+}
+.about{
+    margin-left: 9px;
+    text-align: justify;
+}
+small{
+    margin-left: 9px;
+}
+button{
+    margin-left: 19px;
+    border-radius: 15px;
+    border: 1px solid var(--gr);
+    padding: 5px;
+    cursor: pointer;
+}
+button:active{
+    transform: scale(1.1);
+}
+.special-courses .box2{
+    margin-top: 75px;
+}
+.center{
+    float: left;
+    margin-left: 18px;
+    margin-top: 20px;
+   position: relative;
+}
+
+.center .slogan{
+    font-family: 'Gochi Hand', cursive;
+    margin: auto;
+     margin-top: 5px; 
+    font-size: 60px;
+    color: #fff;
+    background-image: url(https://image.shutterstock.com/image-photo/web-development-coding-programming-internet-260nw-1141706672.jpg);
+    background-size: 990px;
+    border-radius: 0px 40px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+    width: 948px;
+    height: 400px;
+}
+.slogan{
+    padding-top: 40px;
+     padding-left: 8px; 
+}
+.sort-by{
+    margin-left: 820px;
+    height: 50px;
+    font-size: 30px;
+}
+
+.courses{
+    position: relative;
+    
+}
+.c1,.c2,.c3,.c4,.c5,.c6{
+    border: 1px solid #fff;
+    width: 280px;
+    height: 325px;
+    float: left;
+    margin-top: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px rgba(0,0,0,0.1);
+    font-family: 'Karla', sans-serif;
+}
+h3{
+    margin-left: 15px;
+    color: var(--bl);
+    display: inline;
+}
+span{
+    margin-left: 55px;
+    
+}
+.c1 img{
+   padding-top: 10px;
+   margin-left: 15px; 
+}
+.c1 image:hover{
+    background-image: url(bg1.jpg);
+    transition: 0.2s;
+}
+.c1 .about,.c1 small{
+    margin-left: 15px;
+    
+}
+.c1 .about{
+    text-align: justify;
+    width: 250px;
+}
+.c1 .about a{
+    text-decoration: none;
+    color: var(--gr);
+}
+.courses .c1 button{
+    margin-left: 110px;
+}
+.courses .c1 button a{
+    text-decoration: none;
+    color: #000;
+}
+.courses .c2{
+    position: absolute;
+    left: 320px;
+    top: 1px;
+}
+.courses .c3{
+    position: absolute;
+    right: 25px;
+    top: 0px;
+}
+.courses .c4{
+    margin-top: 55px;
+}
+.courses .c5{
+   position: absolute;
+   left: 320px;
+   margin-top: 55px;
+}
+.courses .c6{
+    position: absolute;
+    right: 25px;
+    margin-top: 55px;
+}
+
+/*.layer{
+    height: 185px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+     background-color: rgba(255,255,255,0.7);
+    opacity: 1; 
+}
+.layer h3{
+    font-family: 'Gochi Hand', cursive;
+    width: 100%;
+    font-weight: 25px;
+    color: var(--gr);
+    font-size: 50px;
+    bottom: 0;
+     left: 60px;
+    position: absolute;
+     opacity: 0; 
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 5%;
+     opacity: 1; 
+} */
+.courses .more-courses{
+    position: absolute;
+    top: 750px;
+    right: 53px;
+    font-size: 30px;
+    text-decoration: none;
+}
+           
